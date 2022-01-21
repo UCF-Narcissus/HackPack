@@ -1,6 +1,9 @@
-#include <bits/stdc++.h>
-
-using namespace std;
+/**
+ * Description: Vector code
+ *
+ * Time: $O(1)$
+ * Memory: $O(1)$
+ */
 
 using vec = pair<double, double>;
 #define xx first

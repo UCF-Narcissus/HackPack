@@ -1,6 +1,8 @@
-#include <bits/stdc++.h>
-
-using namespace std;
+/**
+ * Description: Given a set of vertices, find a set that creates a polygon such that all vertices lie within that polygon
+ * Time: $O(n)$
+ * Memory: $O(n)$
+ */
 
 using point = pair<int, int>;
 #define xx first

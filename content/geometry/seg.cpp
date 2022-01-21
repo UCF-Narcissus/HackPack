@@ -1,9 +1,7 @@
 /**
- * Author: Tyler Mark
  * Description: Line segment geometry
- * 
  * Time: $O(1)$
- * Space: $O(1)$
+ * Memory: $O(1)$
  */
 #define eps 1e9
 
