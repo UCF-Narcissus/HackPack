@@ -1,6 +1,8 @@
-#include <bits/stdc++.h>
-
-using namespace std;
+/**
+ * Description: Construct a Minimum Spanning Tree using Kruskal's algorithm
+ *
+ * Time: $O(E\alpha)$
+ */
 
 #define vv first
 #define ww second

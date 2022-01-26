@@ -1,6 +1,6 @@
 /**
- * Description: Maintains union of disjoint sets.
- * Time: $O(\alpha(n))$ amortized
+ * Description: Maintains a collection of disjoint sets.
+ * Time: $O(\alpha(1))$ amortized.
  */
 class ufds {
     public:

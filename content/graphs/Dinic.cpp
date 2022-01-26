@@ -1,6 +1,8 @@
-#include <bits/stdc++.h>
-
-using namespace std;
+/**
+ * Description: Compute maximum flow in a graph. The basic principle is that a Maximum flow = minimum cut and Breadth First Search is used as a sub-routine.
+ * Time: $O(EV^2)$
+ * Memory: $O(E + V)$
+ */
 
 #define ll long long
 
