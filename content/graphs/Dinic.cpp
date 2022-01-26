@@ -4,7 +4,7 @@
  * Memory: $O(E + V)$
  */
 
-#define ll long long
+using ll = long long;
 
 struct Dinic {
 	struct Edge {

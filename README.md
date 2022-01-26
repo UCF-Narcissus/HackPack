@@ -1,6 +1,6 @@
 # UCF Narcissus Hackpack
 
-- PDF: [Atalanta.pdf](https://github.com/UCF-Narcissus/HackPack/releases/download/v1.0/Echo.pdf)
+- PDF: [Echo.pdf](https://github.com/UCF-Narcissus/HackPack/releases/download/v1.0/Echo.pdf)
 
 ## Style
 - use only the `#define`s and `typedef`s in the [template](https://github.com/ucf-programming-team/hackpack-cpp/blob/master/content/contest/template.cpp)

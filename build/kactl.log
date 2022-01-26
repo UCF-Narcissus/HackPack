@@ -2,13 +2,21 @@ This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**content/test-session/test-session.tex
-(./content/test-session/test-session.tex
+**content/kactl.tex
+(./content/kactl.tex
 LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extreport.cls
+Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+) (/usr/share/texlive/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen134
 )
 \c@part=\count167
 \c@chapter=\count168
@@ -21,7 +29,7 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \c@table=\count175
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
+\bibindent=\dimen135
 ) (content/tex/kactlpkg.sty
 Package: kactlpkg 
  (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
@@ -36,14 +44,14 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \lst@gtempboxa=\box45
 \lst@token=\toks17
 \lst@length=\count177
-\lst@currlwidth=\dimen135
+\lst@currlwidth=\dimen136
 \lst@column=\count178
 \lst@pos=\count179
-\lst@lostspace=\dimen136
-\lst@width=\dimen137
+\lst@lostspace=\dimen137
+\lst@width=\dimen138
 \lst@newlines=\count180
 \lst@lineno=\count181
-\lst@maxwidth=\dimen138
+\lst@maxwidth=\dimen139
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 \c@lstnumber=\count182
@@ -56,10 +64,10 @@ Package: listings 2019/09/10 1.8c (Carsten Heinz)
  (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip49
-\fb@frw=\dimen139
-\fb@frh=\dimen140
-\FrameRule=\dimen141
-\FrameSep=\dimen142
+\fb@frw=\dimen140
+\fb@frh=\dimen141
+\FrameRule=\dimen142
+\FrameSep=\dimen143
 ) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -70,34 +78,34 @@ Package: iftex 2019/11/07 v1.0c TeX engine tests
 \Gm@cnth=\count184
 \Gm@cntv=\count185
 \c@Gm@tempcnt=\count186
-\Gm@bindingoffset=\dimen143
-\Gm@wd@mp=\dimen144
-\Gm@odd@mp=\dimen145
-\Gm@even@mp=\dimen146
-\Gm@layoutwidth=\dimen147
-\Gm@layoutheight=\dimen148
-\Gm@layouthoffset=\dimen149
-\Gm@layoutvoffset=\dimen150
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
 \Gm@dimlist=\toks18
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count187
 \mult@box=\box47
-\multicol@leftmargin=\dimen151
+\multicol@leftmargin=\dimen152
 \c@unbalance=\count188
 \c@collectmore=\count189
 \doublecol@number=\count190
 \multicoltolerance=\count191
 \multicolpretolerance=\count192
-\full@width=\dimen152
-\page@free=\dimen153
-\premulticols=\dimen154
-\postmulticols=\dimen155
+\full@width=\dimen153
+\page@free=\dimen154
+\premulticols=\dimen155
+\postmulticols=\dimen156
 \multicolsep=\skip50
 \multicolbaselineskip=\skip51
 \partial@page=\box48
 \last@line=\box49
-\maxbalancingoverflow=\dimen156
+\maxbalancingoverflow=\dimen157
 \mult@rightbox=\box50
 \mult@grightbox=\box51
 \mult@gfirstbox=\box52
@@ -142,9 +150,9 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@minrows=\count193
 \c@columnbadness=\count194
 \c@finalcolumnbadness=\count195
-\last@try=\dimen157
-\multicolovershoot=\dimen158
-\multicolundershoot=\dimen159
+\last@try=\dimen158
+\multicolovershoot=\dimen159
+\multicolundershoot=\dimen160
 \mult@nat@firstbox=\box91
 \colbreak@box=\box92
 \mc@col@check@num=\count196
@@ -164,9 +172,9 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
-\ex@=\dimen160
+\ex@=\dimen161
 )
-\pmbraise@=\dimen161
+\pmbraise@=\dimen162
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -198,7 +206,7 @@ LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box93
 \strutbox@=\box94
-\big@size=\dimen162
+\big@size=\dimen163
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count268
@@ -211,12 +219,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \column@=\count273
 \maxfields@=\count274
 \andhelp@=\toks21
-\eqnshift@=\dimen163
-\alignsep@=\dimen164
-\tagshift@=\dimen165
-\tagwidth@=\dimen166
-\totwidth@=\dimen167
-\lineht@=\dimen168
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
 \@envbody=\toks22
 \multlinegap=\skip62
 \multlinetaggap=\skip63
@@ -264,7 +272,7 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cfttabnumwidth=\skip97
 ) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2019/10/16 v2.13 TOC entries
-\ttl@leftsep=\dimen169
+\ttl@leftsep=\dimen170
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
@@ -282,8 +290,8 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen170
-\Gin@req@width=\dimen171
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
@@ -299,7 +307,7 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 ) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip102
-\enit@outerparindent=\dimen172
+\enit@outerparindent=\dimen173
 \enit@toks=\toks25
 \enit@inbox=\box95
 \enit@count@id=\count277
@@ -337,12 +345,12 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 \UL@hyphenbox=\box97
 \UL@skip=\skip103
 \UL@hook=\toks26
-\UL@height=\dimen173
+\UL@height=\dimen174
 \UL@pe=\count280
-\UL@pixel=\dimen174
+\UL@pixel=\dimen175
 \ULC@box=\box98
 Package: ulem 2019/11/18
-\ULdepth=\dimen175
+\ULdepth=\dimen176
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
  (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
@@ -364,7 +372,7 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen176
+\@linkdim=\dimen177
 \Hy@linkcounter=\count281
 \Hy@pagecounter=\count282
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
@@ -391,15 +399,15 @@ Package hyperref Info: Bookmarks ON on input line 4800.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen177
+\XeTeXLinkMargin=\dimen178
  (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count286
-\Field@Width=\dimen178
-\Fld@charsize=\dimen179
+\Field@Width=\dimen179
+\Fld@charsize=\dimen180
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -444,25 +452,25 @@ File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count292
 \l__pdf_internal_box=\box99
-) (build//test-session.aux)
-\openout1 = `test-session.aux'.
+) (build//kactl.aux)
+\openout1 = `kactl.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 \c@lstlisting=\count293
 
 *geometry* driver: auto-detecting
@@ -484,12 +492,12 @@ LaTeX Font Info:    ... okay on input line 7.
 * \topmargin=-80.81725pt
 * \headheight=25.0pt
 * \headsep=5.0pt
-* \topskip=10.0pt
+* \topskip=9.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -502,13 +510,13 @@ LaTeX Font Info:    ... okay on input line 7.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count294
-\scratchdimen=\dimen180
+\scratchdimen=\dimen181
 \scratchbox=\box100
 \nofMPsegments=\count295
 \nofMParguments=\count296
 \everyMPshowfont=\toks27
 \MPscratchCnt=\count297
-\MPscratchDim=\dimen181
+\MPscratchDim=\dimen182
 \MPnumerator=\count298
 \makeMPintoPDFobject=\count299
 \everyMPtoPDFconversion=\toks28
@@ -519,7 +527,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box101
-Package hyperref Info: Link coloring OFF on input line 7.
+Package hyperref Info: Link coloring OFF on input line 11.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -529,41 +537,196 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count300
 )
-LaTeX Info: Redefining \ref on input line 7.
-LaTeX Info: Redefining \pageref on input line 7.
-LaTeX Info: Redefining \nameref on input line 7.
- (build//test-session.out) (build//test-session.out)
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
+ (build//kactl.out) (build//kactl.out)
 \@outlinefile=\write3
-\openout3 = `test-session.out'.
+\openout3 = `kactl.out'.
 
 runsystem(rm -f build/header.tmp)...executed.
 
- (./content/test-session/chapter.tex
-Chapter A.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+<narcissusflower.pdf, id=32, 529.98pt x 529.98pt>
+File: narcissusflower.pdf Graphic file (type pdf)
+<use narcissusflower.pdf>
+Package pdftex.def Info: narcissusflower.pdf  used on input line 12.
+(pdftex.def)             Requested size: 85.35826pt x 85.35652pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <content/tex/narcissusflower.pdf>] (build//kactl.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+))
+\tf@toc=\write4
+\openout4 = `kactl.toc'.
+
+ (./content/contest/chapter.tex
+Chapter 1.
 \c@ttl@toc@chapters=\count301
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 24.
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/contest/template.cpp" -o build/kactl.tmp -l rawcpp)...executed.
+
+(./build/kactl.tmp
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+))) (./content/data-structures/chapter.tex
+Chapter 2.
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/data-structures/BIT.h" -o build/kactl.tmp )...executed.
+
+(./build/kactl.tmp
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 20.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 41.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pcr.fd
-File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-))
-runsystem(python3 content/tex/preprocessor.py --print-header "|" -o build/header2.tmp)...executed.
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <7> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 20.
+)
+runsystem(rm -f build/kactl.tmp)...executed.
 
- (./build/header2.tmp) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+runsystem(python3 content/tex/preprocessor.py -i "content/data-structures/dsu.h" -o build/kactl.tmp )...executed.
 
-]
-\tf@ptc=\write4
-\openout4 = `test-session.ptc'.
+ (./build/kactl.tmp)) (./content/geometry/chapter.tex
+Chapter 3.
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/closestpairpoints.cpp" -o build/kactl.tmp )...executed.
+
+(./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/convexHull.cpp" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmppdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41     }
+           [1
+
+])
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/seg.cpp" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/vec.cpp" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp))
+runsystem(python3 content/tex/preprocessor.py --print-header "|vec.cpp" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [2] (./content/graphs/chapter.tex
+Chapter 4.
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/bellmanFord.cpp" -o build/kactl.tmp )...executed.
+
+(./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/dijkstraTylerM.cpp" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/floydWarshall.cpp" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/kruskalMST.cpp" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/Dinic.cpp" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/topSort.cpp" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "Dinic.cpp|topSort.cpp" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [3])
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/SCCTarjan.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp
+LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 6.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspcr.fd
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/SCCKosaraju.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/dijkstra.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)) (./content/math/chapter.tex
+Chapter 5.
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/math/Fraction.h" -o build/kactl.tmp )...executed.
+
+(./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/math/FractionOverflow.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "FractionOverflow.h|FractionOverflow.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [4])
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/math/PrimeSieve.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/math/PrimeSieveFast.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)) (./content/misc/chapter.tex
+Chapter 6.
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/misc/NDimensionalVector.h" -o build/kactl.tmp )...executed.
+
+(./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/misc/Submasks.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)) (./content/strings/chapter.tex
+Chapter 7.
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/strings/ZValues.h" -o build/kactl.tmp )...executed.
+
+(./build/kactl.tmp))
+runsystem(python3 content/tex/preprocessor.py --print-header "|ZValues.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [5]
+\tf@ptc=\write5
+\openout5 = `kactl.ptc'.
 
 runsystem(rm -f build/header.tmp)...executed.
 
@@ -571,27 +734,27 @@ runsystem(rm -f build/header2.tmp)...executed.
 
 runsystem(rm -f build/kactl.tmp)...executed.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
- (build//test-session.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 11.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
-Package rerunfilecheck Info: File `test-session.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
+ (build//kactl.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
+Package rerunfilecheck Info: File `kactl.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 10548 strings out of 481239
- 154939 string characters out of 5920378
- 625762 words of memory out of 5000000
- 25601 multiletter control sequences out of 15000+600000
- 536806 words of font info for 42 fonts, out of 8000000 for 9000
+ 12314 strings out of 481239
+ 178255 string characters out of 5920378
+ 1164895 words of memory out of 5000000
+ 26572 multiletter control sequences out of 15000+600000
+ 541765 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,64p,877b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on build//test-session.pdf (1 page, 55698 bytes).
+ 42i,12n,64p,857b,2131s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on build//kactl.pdf (6 pages, 282730 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 986 PDF objects out of 1000 (max. 8388607)
+ 949 compressed objects within 10 object streams
+ 706 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
