@@ -14,9 +14,9 @@ vector<int> dijkstra(
     priority_queue<ii, vector<ii>, greater<ii>> pq;
     pq.push(ii(0, s));
     while (!pq.empty()) {
-        auto &[d, u] = pq.top(); pq.pop();
+        auto [d, u] = pq.top(); pq.pop();
         if (d > dist[u]) continue;
-        for (auto &[v, w] : adjlist[u])
+        for (auto [v, w] : adjlist[u])
             if (d + w < dist[v])
                 pq.push(ii(dist[v] = d + w, v));
     }
