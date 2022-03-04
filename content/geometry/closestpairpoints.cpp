@@ -1,16 +1,18 @@
 struct vec{
-    int x, y, id;
-    explicit vec(int x=0, int y=0, int id=0) : x(x), y(y), id(id){}
+    ld x, y; int id;
+    explicit vec(ld x=0, ld y=0, int id=0) : x(x), y(y), id(id){}
+    bool operator< (vec o){
+        return id < o.id;
+    }
 };
 
 int n;
-vector<vec> a, t;
-double mindist;
+vector<vec> a, t; ld mindist;
 pair<int, int> best;
 
 void updClosest(const vec& a, const vec& b){
-    double dx = a.x - b.x, dy = a.y - b.y;
-    double dist = sqrt(dx*dx + dy*dy);
+    ld dx = a.x - b.x, dy = a.y - b.y;
+    ld dist = sqrtl(dx*dx + dy*dy);
     if(dist < mindist){
         mindist = dist;
         best = {a.id, b.id};
@@ -39,9 +41,9 @@ void solve(int l, int r){
     int m = (l+r)/2;
     int midx = a[m].x;
     solve(l, m);
-    solve(m, r);
+    solve(m, r);    
 
-    merge(a.begin() + 1, a.begin() + m, a.begin() + m, a.begin() + r, t.begin(), cmpY);
+    merge(a.begin() + l, a.begin() + m, a.begin() + m, a.begin() + r, t.begin(), cmpY);
     copy(t.begin(), t.begin() + (r-l), a.begin() + l);
 
     int tSz = 0;
@@ -56,8 +58,9 @@ void solve(int l, int r){
 }
 
 void clstPts(){
-    t.resize(n);
+    t = vector<vec>(n);
     sort(a.begin(), a.end(), cmpX);
-    mindist = DBL_MAX;
+    mindist = 1e20;
     solve(0, n);
+    sort(a.begin(), a.end());
 }
