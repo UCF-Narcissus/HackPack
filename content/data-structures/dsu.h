@@ -4,7 +4,7 @@
  */
 class ufds {
     public:
-    vi p, rank, size;
+    vector<int> p, rank, size;
     int num_distincts;
     ufds(int n) {
         p.resize(n); rank.resize(n); size.resize(n);
@@ -21,7 +21,9 @@ class ufds {
         int pi = find(i), pj = find_set(j);
         if (pi == pj) return;
         distincts--;
+
         size[pi] = size[pj] = size[pi] + size[pj];
+
         if (rank[pi] > rank[pj]) {
             p[pj] = pi;
         } else {
