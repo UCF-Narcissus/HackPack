@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.1.7)  3 MAR 2022 21:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.1.7)  3 MAR 2022 21:49
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -617,9 +617,22 @@ runsystem(python3 content/tex/preprocessor.py --print-header "|SegmentTree.h" -o
 Chapter 3.
 runsystem(rm -f build/kactl.tmp)...executed.
 
-runsystem(python3 content/tex/preprocessor.py -i "content/geometry/closestpairpoints.cpp" -o build/kactl.tmp )...executed.
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/seg.cpp" -o build/kactl.tmp )...executed.
 
 (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/vec.cpp" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/circle.cpp" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp
+runsystem(python3 content/tex/preprocessor.py --print-header "|circle.cpp" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [3])
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/geometry/convexHull.cpp" -o build/kactl.tmp )...executed.
@@ -627,31 +640,31 @@ runsystem(python3 content/tex/preprocessor.py -i "content/geometry/convexHull.cp
  (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
-runsystem(python3 content/tex/preprocessor.py -i "content/geometry/seg.cpp" -o build/kactl.tmp )...executed.
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/polygonArea.cpp" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
-runsystem(python3 content/tex/preprocessor.py -i "content/geometry/vec.cpp" -o build/kactl.tmp )...executed.
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/closestpairpoints.cpp" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/geometry/AreaOfCircleUnion.cpp" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "vec.cpp|vec.cpp" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "|AreaOfCircleUnion.cpp" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [3]))
-runsystem(python3 content/tex/preprocessor.py --print-header "|vec.cpp" -o build/header2.tmp)...executed.
+ (./build/header2.tmp) [4]))
+runsystem(python3 content/tex/preprocessor.py --print-header "|AreaOfCircleUnion.cpp" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [4] (./content/graphs/chapter.tex
+ (./build/header2.tmp) [5] (./content/graphs/chapter.tex
 Chapter 4.
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/graphs/bellmanFord.cpp" -o build/kactl.tmp )...executed.
 
 (./build/kactl.tmp)
-runsystem(rm -f build/kactl.tmp)...executed.
-
-runsystem(python3 content/tex/preprocessor.py -i "content/graphs/dijkstraTylerM.cpp" -o build/kactl.tmp )...executed.
-
- (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/graphs/floydWarshall.cpp" -o build/kactl.tmp )...executed.
@@ -671,10 +684,10 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/graphs/topSort.cpp" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "Dinic.cpp|topSort.cpp" -o build/header2.tmp)...executed.
+ (./build/kactl.tmp)
+runsystem(python3 content/tex/preprocessor.py --print-header "topSort.cpp|topSort.cpp" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [5])
+ (./build/header2.tmp) [6]
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/graphs/SCCTarjan.h" -o build/kactl.tmp )...executed.
@@ -699,7 +712,7 @@ runsystem(python3 content/tex/preprocessor.py -i "content/graphs/dijkstra.h" -o 
  (./build/kactl.tmp))
 runsystem(python3 content/tex/preprocessor.py --print-header "|dijkstra.h" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [6] (./content/math/chapter.tex
+ (./build/header2.tmp) [7] (./content/math/chapter.tex
 Chapter 5.
 runsystem(rm -f build/kactl.tmp)...executed.
 
@@ -723,7 +736,7 @@ runsystem(python3 content/tex/preprocessor.py -i "content/math/PrimeSieveFast.h"
  (./build/kactl.tmp))
 runsystem(python3 content/tex/preprocessor.py --print-header "|PrimeSieveFast.h" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [7] (./content/misc/chapter.tex
+ (./build/header2.tmp) [8] (./content/misc/chapter.tex
 Chapter 6.
 runsystem(rm -f build/kactl.tmp)...executed.
 
@@ -737,7 +750,7 @@ runsystem(python3 content/tex/preprocessor.py -i "content/misc/Submasks.h" -o bu
  (./build/kactl.tmp))
 runsystem(python3 content/tex/preprocessor.py --print-header "|Submasks.h" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [8] (./content/strings/chapter.tex
+ (./build/header2.tmp) [9] (./content/strings/chapter.tex
 Chapter 7.
 runsystem(rm -f build/kactl.tmp)...executed.
 
@@ -746,7 +759,7 @@ runsystem(python3 content/tex/preprocessor.py -i "content/strings/ZValues.h" -o 
 (./build/kactl.tmp))
 runsystem(python3 content/tex/preprocessor.py --print-header "|ZValues.h" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [9]
+ (./build/header2.tmp) [10]
 \tf@ptc=\write5
 \openout5 = `kactl.ptc'.
 
@@ -765,18 +778,18 @@ Package rerunfilecheck Info: File `kactl.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 12462 strings out of 481239
- 180345 string characters out of 5920378
- 1158895 words of memory out of 5000000
- 26610 multiletter control sequences out of 15000+600000
+ 12767 strings out of 481239
+ 185047 string characters out of 5920378
+ 1282895 words of memory out of 5000000
+ 26656 multiletter control sequences out of 15000+600000
  541765 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,64p,857b,2129s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,64p,857b,2129s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on build//kactl.pdf (10 pages, 292319 bytes).
+Output written on build//kactl.pdf (11 pages, 303263 bytes).
 PDF statistics:
- 1118 PDF objects out of 1200 (max. 8388607)
- 1076 compressed objects within 11 object streams
- 804 named destinations out of 1000 (max. 500000)
+ 1428 PDF objects out of 1440 (max. 8388607)
+ 1382 compressed objects within 14 object streams
+ 1057 named destinations out of 1200 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
